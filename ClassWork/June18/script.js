@@ -18,7 +18,7 @@ function fun()
 function lightOn() {
   let bulbImage = document.getElementById("bulbImg");
 //   console.log(bulbImage);
-  bulbOnSrc = "../Assets/pic_bulbon.gif";
+  bulbOnSrc = "ClassWork\June18\Assets\pic_bulbon.gif";
   bulbImage.src = bulbOnSrc;
 }
 
