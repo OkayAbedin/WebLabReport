@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <h1>Lets play with Light</h1>
+    <div class="bulb">
+        <button onClick=lightOn()>Turn on</button>
+        <div>
+            <img id="bulbImg" src="../Assets/pic_bulboff.gif" alt="">
+        </div>
+        
+        <button onClick=lightOff()>Turn off</button>
+    </div>
+
+    <h1>Form Submission Example</h1>
+    <div>
+        <form action="" autocomplete="on">
+            <fieldset>
+                <legend>Login</legend>
+                <label for="un">Username</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username">
+                <span id="error"></span>
+                <br><br>
+                <label for="pw">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password">
+                <br><br>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" >
+                <br><br>
+                <input type="submit" value="Submit" onclick=fun()>
+            </fieldset>
+        </form>
+    </div>
+    <div>
+        <form action="">
+            <fieldset>
+                <legend>Registration</legend>
+                <label for="fname"> First Name</label>
+                <input type="text" name="fname" id="fname" autofocus>
+                <br><br>
+                <label for="lname">Last Name</label>
+                <input type="text" name="lname" id="lname">
+                <br><br>
+                <label for="email">Email</label>
+                <input type="email" id="remail" name="email" placeholder="Enter your email" required>
+                <br><br>
+                <label for="dob">Date of Birth</label>
+                <input type="date" name="dob" id="dob">
+                <br><br>
+                <label for="gender"> Gender</label>
+                <input type="radio" name="gender" id="gF" value="F">
+                <label for="gender">Female</label>
+                <input type="radio" name="gender" id="gM" value="M">
+                <label for="gender">Male</label>
+                <br><br>
+
+                <label for="pl">Prog Languages</label>
+                <input type="checkbox" name="pl" id="plC" value="C">
+                <label for="plC">C</label>
+                <input type="checkbox" name="pl" id="plC++" value="C++">
+                <label for="plC++">C++</label>
+                <input type="checkbox" name="pl" id="plC#" value="C++">
+                <label for="plC#">C#</label>
+                <input type="checkbox" name="pl" id="plJs" value="Js">
+                <label for="plJs">Js</label>
+                <input type="checkbox" name="pl" id="plPython" value="Python">
+                <label for="plPython">Python</label>
+                <input type="checkbox" name="pl" id="plPHP" value="Php">
+                <label for="plPHP">Php</label>
+                <br><br>
+
+                <label for="district">District</label>
+                <select name="district" id="district">
+                    <option value="Dhaka">Dhaka</option>
+                    <option value="Chittagong">Chittagong</option>
+                    <option value="Khulna" selected>Khulna</option>
+                    <option value="Rangpur">Rangpur</option>
+                    <option value="Sylhet">Sylhet</option>
+                </select>
+                
+
+                <br><br>
+
+
+                <label for="cc">Country Code</label>
+                <input type="text" name="cc" id="cc" placeholder="BAN" pattern="[A-Z]{3}">
+                <br><br>
+
+                <label for="color">Color</label>
+                <input type="color">
+
+                <br><br>
+                <input type="submit" value="Submit">
+        </form>
+    </div>
+
+</body>
+
+</html>
