@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Validation</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <div class="container">
         <form action="" id="form">
@@ -20,7 +22,31 @@
                 <div>
                     <label for="password">Password</label>
                     <input type="password" name="password" id="password" placeholder="Enter a password">
-                    <div id="error" id="password-error"></div>
+                    <div id="error2" id="password-error"></div>
+                    <div id="error3" id="password-error"></div>
+                    <div id="error4" id="password-error"></div>
+                    <div id="error5" id="password-error"></div>
+                </div>
+                <br>
+                <div>
+                    <label for="ipAddress">IP Address</label>
+                    <input type="text" name="ipAddress" id="ipAddress" placeholder="Enter your IP Address">
+                    <br>
+                    <div id="error6"></div>
+                </div>
+                <br>
+                <div>
+                    <label for="vno">Vehicle No</label>
+                    <input type="text" name="vno" id="vno" placeholder="Enter your vehicle no">
+                    <br>
+                    <div id="error7"></div>
+                </div>
+                <br>
+                <div>
+                    <label for="vno">Color Code</label>
+                    <input type="text" name="hex" id="hex" placeholder="Enter your fav Color">
+                    <br>
+                    <div id="error8"></div>
                 </div>
                 <br>
                 <input type="submit" value="Login">
@@ -29,4 +55,5 @@
     </div>
     <script src="script.js"></script>
 </body>
+
 </html>
