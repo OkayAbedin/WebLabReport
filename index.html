@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minhazul Abedin</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
 </head>
+
 <body>
     <header class="header">
         <div class="container">
@@ -32,23 +35,26 @@
             <br>
         </div>
         <div class="arrow">
-            <img src="https://cdn.prod.website-files.com/5e1757f0a3e13906c805b7cb/5e2883b964c767957848e087_down%20arrow.svg" alt="" width="60%">
+            <img src="https://cdn.prod.website-files.com/5e1757f0a3e13906c805b7cb/5e2883b964c767957848e087_down%20arrow.svg"
+                alt="" width="60%">
         </div>
         <div class="bio">
             <br><br>
-            <p>Hello, I am a developer focused on user-centered digital products with a background in communications and research.</p>
+            <p>Hello, I am a developer focused on user-centered digital products with a background in communications and
+                research.</p>
         </div>
     </section>
     <section class="card-container">
         <div class="card">
             <div class="card-left">
-                <img src = "https://i.ibb.co/CKT3r2gQ/image.png" alt="DIU Route Explorer Screenshot">
+                <img src="https://i.ibb.co/CKT3r2gQ/image.png" alt="DIU Route Explorer Screenshot">
             </div>
             <div class="card-right">
                 <h2>DIU Route Explorer</h2>
                 <p class="date">February 2025 - June 2025</p>
                 <p class="description">
-                    DIU Route Explorer is a comprehensive mobile application designed to streamline bus transportation for Daffodil International University students, faculty, and staff. 
+                    DIU Route Explorer is a comprehensive mobile application designed to streamline bus transportation
+                    for Daffodil International University students, faculty, and staff.
                 </p>
                 <p><strong>Tools:</strong> Dart, Flutter</p>
                 <p><strong>Role:</strong>Android App Developer</p>
@@ -64,7 +70,8 @@
                 <h2>Share A Note</h2>
                 <p class="date">May 2025 - June 2025</p>
                 <p class="description">
-                    A modern, privacy-focused collaborative note-sharing application built with Next.js 15, Firebase, and TypeScript. Create and share notes with custom URLs - no registration required! 
+                    A modern, privacy-focused collaborative note-sharing application built with Next.js 15, Firebase,
+                    and TypeScript. Create and share notes with custom URLs - no registration required!
                 </p>
                 <p><strong>Tools:</strong>NextJs, NodeJS, TypeScript, Firebase</p>
                 <p><strong>Role:</strong>Web Developer</p>
@@ -80,7 +87,8 @@
                 <h2>How Old Is Me</h2>
                 <p class="date">May 2025 - June 2025</p>
                 <p class="description">
-                    A modern, elegant age calculator web app with detailed time breakdowns, astrological information, historical events, and life statistics. 
+                    A modern, elegant age calculator web app with detailed time breakdowns, astrological information,
+                    historical events, and life statistics.
                 </p>
                 <p><strong>Tools:</strong>HTML, CSS, JavaScript</p>
                 <p><strong>Role:</strong>Web Developer</p>
@@ -88,10 +96,50 @@
                 <a href="https://github.com/OkayAbedin/how-old-is-me"><strong>GitHub Link</strong></a>
             </div>
         </div>
-        <div class="load-more">
-            <p>Load More</p>
-
+    </section>
+    <section>
+        <div id="contact">
+            <h2>Contact With Me</h2>
+            <form action="">
+                <div class="inputarea">
+                    <label for="fname">First Name</label>
+                    <input type="text" name="fname" id="fname" placeholder="Enter your first name">
+                    <div id="fnameError"></div>
+                </div>
+                <div class="inputarea">
+                    <label for="lname">Last Name</label>
+                    <input type="text" name="lname" id="lname" placeholder="Enter your last name">
+                    <div id="lnameError"></div>
+                </div>
+                <div class="inputarea">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email">
+                    <div id="emailError"></div>
+                </div>
+                <div class="inputarea">
+                    <label for="subject">Subject</label>
+                    <input type="text" name="subject" id="subject" placeholder="Enter the subject">
+                    <div id="subjectError"></div>
+                </div>
+                <div class="inputarea">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" placeholder="Enter your message"></textarea>
+                    <div id="messageError"></div>
+                </div>
+                <div class="inputarea">
+                    <label for="phone">Phone</label>
+                    <input type="tel" name="phone" id="phone" placeholder="Enter your phone number">
+                    <div id="phoneError"></div>
+                </div>
+                <div class="inputarea">
+                    <label for="website">Website</label>
+                    <input type="text" name="website" id="website" placeholder="Enter your website URL">
+                    <div id="webError"></div>
+                </div>
+                <input type="submit" value="Send Message">
+            </form>
         </div>
     </section>
 </body>
+
 </html>
