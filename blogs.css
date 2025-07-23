@@ -1,0 +1,57 @@
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.left-post {
+    width: 20%;   
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.posts {
+    width: 55%;  
+    padding: 0px 20px;
+}
+
+.right-post {
+    width: 20%;   
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.card-post {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.card-post p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.card-post h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.make-post {
+    background-color: #f1f1f1;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.make-post form input::placeholder,
+.make-post form textarea::placeholder {
+    font-size: 14px;
+} 
